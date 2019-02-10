@@ -38,7 +38,7 @@ img{
 }
 .stage-1 {
     width: 100%;
-    background: url(/image/background_fon.png);
+    background: url(../image/background_fon.png);
 }
 
 .stage__inner {
@@ -63,7 +63,7 @@ img{
 .stage_logo {
     width: 195px;
     height: 35px;
-    background: url(/image/logo.png);
+    background: url(../image/logo.png);
 }
 .stage_contacts {
     width: 475px;
@@ -136,7 +136,7 @@ img{
 }
 .list_item {
     margin-top: 30px;
-    list-style-image: url('/image/check.png');
+    list-style-image: url('../image/check.png');
   }
 .item {
     margin-top: 15px;
@@ -168,7 +168,7 @@ img{
         content: '';
         width: 45px;
         height: 15px;
-        background: url(/image/arrow.svg);
+        background: url(../image/arrow.svg);
         background-repeat: no-repeat;
         background-position: center center;
         display: inline-block;
@@ -204,7 +204,7 @@ img{
         width: 40px;
         height: 40px;
         display: flex;
-        background: url(/image/menu.svg);
+        background: url(../image/menu.svg);
         background-size: contain;
         border: none;
     }
