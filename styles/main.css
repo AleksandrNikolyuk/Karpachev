@@ -16,6 +16,12 @@ h1 {
   font-weight: 600;
 }
 
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
 h2, h3 {
   margin: 0;
   font-size: 24px;
@@ -230,8 +236,9 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   color: #ffffff;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 .stage__button:hover {
@@ -293,6 +300,7 @@ img {
     background: url(../image/menu.svg);
     background-size: contain;
     border: none;
+    cursor: pointer;
   }
 }
 /*# sourceMappingURL=main.css.map */
